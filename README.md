@@ -11,26 +11,27 @@ The problem statement that I have chosen for the assignment is coding up a decis
 
 With the given details of the specifications, I have listed here the specifications that I have used. 
 
-    1. IMPURITY MEASURE: 
-        a) entropy impurity
-        b)  gini impurity
+1. IMPURITY MEASURE: 
+    a) entropy impurity
+    b)  gini impurity
 
-    2. STOPPING CRITERIA: 
-        a) check label: to check if only one label is present in the subtree
-        b) Max_depth: to check for maximum number of levels that can be created
+2. STOPPING CRITERIA: 
+    a) check label: to check if only one label is present in the subtree
+    b) Max_depth: to check for maximum number of levels that can be created
 
-    3. BINARY SPLITS: Incorporated
+3. BINARY SPLITS: Incorporated
 
-    4. EVALUATION: 
-        a) Using Confusion Matrix and F1 score
-        b) Used Mushroom Dataset
+4. EVALUATION: 
+    a) Using Confusion Matrix and F1 score
+    b) Used Mushroom Dataset
 
-    5. MISSING ATTRIBUTE:
-        a) Restored the missing values with the mode of the entire column(Implemented)
-        b) Ignore and remove them from dataset
-        c) Pass the rows to test case and check its behaviour 
-    6. REPORTING NUMBERS:
-        a) Calculated as much as possible within the stipulated time and tabulated them in results section as below. 
+5. MISSING ATTRIBUTE:
+    a) Restored the missing values with the mode of the entire column(Implemented)
+    b) Ignore and remove them from dataset
+    c) Pass the rows to test case and check its behaviour 
+6. REPORTING NUMBERS:
+    a) Calculated as much as possible within the stipulated time and tabulated them in results section as below. 
+
 
 Chapter 2: EVALUATION:
 The evaluation for this algorithm has been done using both Titanic Dataset initially followed by Mushroom Dataset.
